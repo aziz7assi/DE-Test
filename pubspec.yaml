@@ -1,0 +1,52 @@
+name: detest
+description: "A new Flutter project."
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.6
+  get: ^4.6.6
+  http: ^1.2.1
+  modal_progress_hud_nsn: ^0.5.1
+  get_storage: ^2.1.1
+  country_code_picker: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assest/image/
+  #   - images/a_dot_ham.jpeg
+
+  
+  fonts:
+    - family: AlBold
+      fonts:
+        - asset: assest/fonts/AlexandriaFLF-Bold.ttf
+
+    - family: AlItalic
+      fonts:
+        - asset: assest/fonts/AlexandriaFLF-Italic.ttf
+
+
+    - family: Al
+      fonts:
+        - asset: assest/fonts/AlexandriaFLF.ttf    
