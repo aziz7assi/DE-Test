@@ -37,6 +37,7 @@ class logInController extends GetxController {
 
       if (statusCode == 200 && user != null) {
         box.write('user', user.toJson());
+        box.write('log', 1);
 
         Get.offAll(() => Homescreen());
       } else if (statusCode == 401) {

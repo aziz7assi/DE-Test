@@ -35,6 +35,8 @@ class Regestercontroller extends GetxController {
 
       if (statusCode == 201 && user != null) {
         box.write('user', user.toJson());
+        box.write('log', 1);
+
         Get.offAll(Homescreen());
       } else {
         Get.defaultDialog(

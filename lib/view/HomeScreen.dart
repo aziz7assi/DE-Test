@@ -8,8 +8,11 @@ import 'package:detest/widget/dialogalert.dart';
 import 'package:detest/widget/rowdatabilder.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:get_storage/get_storage.dart';
 
 class Homescreen extends StatelessWidget {
+  static const String routeName = '/home';
+
   final logInController controller = Get.put(logInController());
 
   @override
